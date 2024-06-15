@@ -8,8 +8,6 @@ def permute(k, arr, n):
 	return permutation
 
 # shifting the bits towards left by nth shifts
-
-
 def shift_left(k, nth_shifts):
 	s = ""
 	for i in range(nth_shifts):
@@ -21,8 +19,6 @@ def shift_left(k, nth_shifts):
 	return k
 
 # calculating xow of two strings of binary number a and b
-
-
 def xor(a, b):
 	ans = ""
 	for i in range(len(a)):
